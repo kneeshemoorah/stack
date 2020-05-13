@@ -24,16 +24,17 @@ variable "cidr" {
 
 variable "default_ecs_ami" {
   default = {
-    us-east-1      = "ami-dde4e6ca"
-    us-west-1      = "ami-6d21770d"
-    us-west-2      = "ami-97da70f7"
-    eu-west-1      = "ami-c41f3bb7"
-    eu-central-1   = "ami-4ba16024"
-    ap-northeast-1 = "ami-90ea86f7"
-    ap-northeast-2 = "ami-8a4b9ce4"
-    ap-southeast-1 = "ami-d603afb5"
-    ap-southeast-2 = "ami-1ddce47e"
-    sa-east-1      = "ami-29039a45"
+    us-east-1      = "ami-0f846c06eb372f19a"
+    us-east-2      = "ami-00017101cbd0aceef"
+    us-west-1      = "ami-0576e257e74a2ed6a"
+    us-west-2      = "ami-0077174c1f13f8f04"
+    eu-west-1      = "ami-0963349a5568210b8"
+    eu-central-1   = "ami-084ab95c0cbe247e5"
+    ap-northeast-1 = "ami-057631c6a4834e06d"
+    ap-northeast-2 = "ami-024fbf9337a64471d"
+    ap-southeast-1 = "ami-0dfd0f227eabe017b"
+    ap-southeast-2 = "ami-0ccdac544dce31397"
+    sa-east-1      = "ami-089e78b2a3db5de22"
   }
 }
 
